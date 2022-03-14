@@ -1,0 +1,73 @@
+@import "~font-awesome/css/font-awesome.css";
+.input-rounded{
+	border-radius: 20px !important;
+	border: 1px solid silver;
+	padding: 0px 15px;
+	width: 100%;
+	height: 35px;
+}
+.rounded {
+	border-radius: 1.25rem !important;
+}
+.btn-rounded{
+	border-radius: 20px !important;
+	width: 100% !important;
+}
+.bg-light{
+	background: white !important;
+}
+.w100{
+	width: 100%;
+}
+.item{
+	cursor: pointer;
+}
+.pull-left{
+	float: left;
+}
+.pull-right{
+	float:right;
+}
+.item .title{
+	width: 88%;
+}
+.item img{
+	width: 5vw;
+	margin-top: 7px;
+}
+.item .subtitle,#detail .subtitle{
+	margin-top: -35px;
+}
+.no-link{
+	text-decoration: none;
+}
+hr{
+	border: 1px solid silver !important;
+}
+#content .card-footer,#content .card-header{
+	background: white !important;
+}
+#detail .imgTitle{
+	width: 14vw;
+	margin-top: -45px;
+	margin-left: -73px;
+}
+#detail .card-head{
+	border-radius: 1.25em !important;
+}
+#detail .imgBg
+{
+	border-radius: 1.25em 1.25em 0 0 !important;
+}
+
+@media only screen and (max-width: 764px) {
+	.item img{
+		width: 50%;
+	}
+}
+@media only screen and (min-width: 1900px) {
+	.item img{
+		width: 100%;
+	}
+}
+
